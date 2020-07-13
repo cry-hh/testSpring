@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4" />
+<module version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Beans_ch06_aop" removed="false">
+          <file>file://$MODULE_DIR$/src/resources/beans_ch06_aop.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/beans_ch02_ref.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/beans_ch03_prop.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>

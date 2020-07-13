@@ -17,7 +17,7 @@ public class MainTest {
         ApplicationContext ac = new ClassPathXmlApplicationContext("beans_ch03_prop.xml");
         //2.注入ComboPooledDataSource数据源实例
         ComboPooledDataSource dataSource = ac.getBean(ComboPooledDataSource.class);
-        System.out.println(dataSource);
+        System.out.println("dataSource");
         //3.获得链接对象
         Connection connection = dataSource.getConnection();
 
